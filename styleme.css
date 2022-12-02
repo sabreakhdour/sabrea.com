@@ -1,0 +1,122 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1024/576/91/60/h51TsB.jpg"); 
+    color : rgb(91, 34, 196);
+    font-size:25px;
+    font-weight:bold;
+    font-family: Bradley Hand ITC;
+}
+h1 {
+    text-decoration: underline;
+    font-size:70px;
+    color: rgb(59, 94, 94);
+    font-family:Freestyle Script
+}
+h2 {
+    text-decoration: underline;
+    font-size:40px;
+    color:rgb(169, 113, 139); 
+    font-weight:bold; 
+    font-style:normal;
+    font-family: Freestyle Script;
+
+
+}	
+li {
+    font-size:25px;
+    font-weight:bold;
+    font-family: Bradley Hand ITC;
+}
+p {
+    color : rgb(34, 150, 196);
+    font-size:25px;
+    font-weight:bold;
+    font-family: Bradley Hand ITC;
+}
+strong {
+    color : rgb(77, 231, 16);
+}
+
+a:link {
+color: Red ;
+text-decoration: underline;
+}
+
+a:visited {
+
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 150%;
+    font-weight:bold;
+    color:rgb(0, 0, 0) ;
+}
+
+
+.cssmarquee {
+height: 60px;	
+overflow: hidden;
+position: relative;
+}
+.cssmarquee h1 {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 60px;
+text-align: left;
+/* Apply animation to this element */	
+-moz-animation: cssmarquee 7s linear infinite alternate;
+-webkit-animation: cssmarquee 5s linear infinite alternate;
+animation: cssmarquee 7s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes cssmarquee {
+0%   { -moz-transform: translateX(70%); }
+100% { -moz-transform: translateX(0%); }
+}
+
+@keyframes cssmarquee {
+0%   { 
+-moz-transform: translateX(70%); /* Firefox bug fix */
+-webkit-transform: translateX(70%); /* Firefox bug fix */
+transform: translateX(70%); 		
+}
+100% { 
+-moz-transform: translateX(0%); /* Firefox bug fix */
+-webkit-transform: translateX(0%); /* Firefox bug fix */
+transform: translateX(0%); 
+}
+}
+
+dl {
+display: block;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+color: Red
+}
+dd{
+color : black ;
+font-size:20px;
+}
+dt{
+font-size:20px;
+font-weight:bold; 
+color : rgb(93, 178, 32) ;
+}
+
+
+ol {
+display: flex;
+flex-direction: column-reverse;
+}
